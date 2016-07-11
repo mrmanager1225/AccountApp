@@ -4,6 +4,7 @@ class Account
 {
 public:
 	// Public functions
+	int numOfAccts;
 	void getAcctNum();
 	void printAcctNum();
 	void getCheckSaving();
@@ -13,13 +14,13 @@ public:
 	void setArrayNum();
 	void printOutArray();
 	void acctArrayEntry();
+	bool isComplete();
 protected:
 
 private:
 	// Private integers
 	int accountNumber;
 	int checkingSaving;
-	int numOfAccts;
 
 	// Private array
 	int accounts[];

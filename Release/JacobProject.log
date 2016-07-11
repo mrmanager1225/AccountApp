@@ -1,0 +1,10 @@
+﻿  account.cpp
+c:\users\austinnoyes\documents\github\accountapp\account.h(26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\users\austinnoyes\documents\github\accountapp\account.h(26): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+  Generating code
+  0 of 20 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    10 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  JacobProject.vcxproj -> C:\Users\austinnoyes\Documents\GitHub\AccountApp\Release\JacobProject.exe
+  JacobProject.vcxproj -> C:\Users\austinnoyes\Documents\GitHub\AccountApp\Release\JacobProject.pdb (Full PDB)

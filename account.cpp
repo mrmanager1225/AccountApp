@@ -62,7 +62,7 @@ void Account::setArrayNum()
 // Function enters the account number entered by user into the appropriate array
 void Account::acctArrayEntry()
 {
-	accounts[0] = accountNumber;
+	accounts[0] = accountNumber;			// This is a static entry and needs to be changed to dynamic entry (i.e. accounts[i] instead of accounts[0])
 }
 
 // TESTING!! Prints out array to ensure that array is correctly initialized
@@ -70,7 +70,8 @@ void Account::printOutArray()
 {
 	for (int i = 0; i < numOfAccts; i++)
 	{
-		cout << accounts[i];
+		cout << "Account number " << i + 1 << " is " << accounts[i];
 		cout << endl;
 	}
 }
+
