@@ -43,3 +43,34 @@ void Account::printAcctType()
 		cout << "This is a savings account." << endl << endl;
 	}
 }
+
+// Function gets the number of accounts that needs to be stored
+void Account::getNumOfAccts()
+{
+	cout << "How many accounts will we be tracking today: ";
+	cin >> numOfAccts;
+
+	cout << endl;
+}
+
+// Function sets the # of accounts to the number of storage units in the array 'accounts'
+void Account::setArrayNum()
+{
+	accounts[numOfAccts];
+}
+
+// Function enters the account number entered by user into the appropriate array
+void Account::acctArrayEntry()
+{
+	accounts[0] = accountNumber;
+}
+
+// TESTING!! Prints out array to ensure that array is correctly initialized
+void Account::printOutArray()
+{
+	for (int i = 0; i < numOfAccts; i++)
+	{
+		cout << accounts[i];
+		cout << endl;
+	}
+}

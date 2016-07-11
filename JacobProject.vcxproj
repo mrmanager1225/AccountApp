@@ -25,6 +25,9 @@
   <ItemGroup>
     <ClInclude Include="account.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D533451B-0241-4028-826A-6D68E3558F3A}</ProjectGuid>
     <RootNamespace>JacobProject</RootNamespace>
