@@ -2,20 +2,29 @@
 #include "account.h"
 using namespace std;
 
-// Function receives the user input for the account number
+// (1) gets the number of accounts that needs to be stored
+void Account::getNumOfAccts()
+{
+	cout << "How many accounts will we be tracking today: ";
+	cin >> numOfAccts;
+
+	cout << endl;
+}
+
+// (2) receives the user input for the account number
 void Account::getAcctNum()
 {
 	cout << "Please enter the account number: ";
 	cin >> accountNumber;
 }
 
-// Function prints out the account number as entered in getAcctNum()
+// (optional) prints out the account number as entered in getAcctNum()
 void Account::printAcctNum()
 {
 	cout << "The account number is " << accountNumber << endl;
 }
 
-// Function uses the user's input to determine whether it's checking or savings type acct
+// (3) uses the user's input to determine whether it's checking or savings type acct
 void Account::getCheckSaving()
 {
 	cout << "Is this a checking (1) or savings (2) account: ";
@@ -23,7 +32,7 @@ void Account::getCheckSaving()
 	cout << endl << endl;
 }
 
-// Function decides whether account type choice was valid (1 or 2)
+// (4) decides whether account type choice was valid (1 or 2) -- could be made private bool function and accessed by getCheckSaving()
 void Account::isValid()
 {
 	if (checkingSaving < 1 || checkingSaving > 2)
@@ -32,7 +41,7 @@ void Account::isValid()
 	}
 }
 
-// Function prints the account type and number subsequently
+// (optional) prints the account type and number subsequently
 void Account::printAcctType()
 {
 	if (checkingSaving == 1)
@@ -45,28 +54,22 @@ void Account::printAcctType()
 	}
 }
 
-// Function gets the number of accounts that needs to be stored
-void Account::getNumOfAccts()
-{
-	cout << "How many accounts will we be tracking today: ";
-	cin >> numOfAccts;
-
-	cout << endl;
-}
-
-// Function sets the # of accounts to the number of storage units in the array 'accounts'
+// (5) sets the # of accounts to the number of storage units in the array 'accounts'
 void Account::setArrayNum()
 {
 	accounts[numOfAccts];
 }
 
-// Function enters the account number entered by user into the appropriate array
-void Account::acctArrayEntry()
+// (6) enters the account number entered by user into the appropriate array
+void Account::arrayEntry()
 {
-	accounts[0] = accountNumber;			// This is a static entry and needs to be changed to dynamic entry (i.e. accounts[i] instead of accounts[0])
+	for (int i = 0; i < numOfAccts; i++)
+	{
+		accounts[i] = accountNumber;
+	}
 }
 
-// TESTING!! Prints out array to ensure that array is correctly initialized
+/* TESTING!! Prints out array to ensure that array is correctly initialized
 void Account::printOutArray()
 {
 	for (int i = 0; i < numOfAccts; i++)
@@ -74,5 +77,4 @@ void Account::printOutArray()
 		cout << "Account number " << i + 1 << " is " << accounts[i];
 		cout << endl;
 	}
-}
-
+} */

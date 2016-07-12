@@ -12,8 +12,8 @@ public:
 	void isValid();
 	void getNumOfAccts();
 	void setArrayNum();
-	void printOutArray();
-	void acctArrayEntry();
+	// void printOutArray();
+	void arrayEntry();
 protected:
 
 private:

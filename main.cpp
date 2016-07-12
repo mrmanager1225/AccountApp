@@ -9,17 +9,27 @@ using namespace std;
 int main()
 {
 	Account account;											// Creates object for access to 'Account' class
+	int *p_numOfAccts;
+	p_numOfAccts = &account.numOfAccts;
 
 	account.getNumOfAccts();
 
+	do
+	{
+		account.getAcctNum();
+		cout << *p_numOfAccts << endl;
+		account.getCheckSaving();
+		cout << *p_numOfAccts << endl;
+		account.isValid();
+		cout << *p_numOfAccts << endl;
+		account.setArrayNum();
+		cout << *p_numOfAccts << endl;
+		account.arrayEntry();
+		cout << *p_numOfAccts << endl;
+	} while (*p_numOfAccts > 0);
 
-	account.getAcctNum();
-	account.getCheckSaving();
-	account.isValid();
-	account.acctArrayEntry();
-	account.printAcctNum();
-	account.printAcctType();
-	account.setArrayNum();
+	// account.printAcctNum();
+	// account.printAcctType();
 	// account.printOutArray();
 
 	system("PAUSE");
