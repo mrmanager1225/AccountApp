@@ -8,9 +8,11 @@ using namespace std;
 
 int main()
 {
-	Account account;																										// Creates object for access to 'Account' class
+	Account account;											// Creates object for access to 'Account' class
 
 	account.getNumOfAccts();
+
+
 	account.getAcctNum();
 	account.getCheckSaving();
 	account.isValid();
@@ -18,7 +20,7 @@ int main()
 	account.printAcctNum();
 	account.printAcctType();
 	account.setArrayNum();
-	account.printOutArray();
+	// account.printOutArray();
 
 	system("PAUSE");
 	return 0;

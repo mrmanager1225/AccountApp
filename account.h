@@ -14,7 +14,6 @@ public:
 	void setArrayNum();
 	void printOutArray();
 	void acctArrayEntry();
-	bool isComplete();
 protected:
 
 private:

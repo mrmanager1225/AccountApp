@@ -18,8 +18,9 @@ void Account::printAcctNum()
 // Function uses the user's input to determine whether it's checking or savings type acct
 void Account::getCheckSaving()
 {
-	cout << "Is this a checking (1) or savings (2) account: " << endl;
+	cout << "Is this a checking (1) or savings (2) account: ";
 	cin >> checkingSaving;
+	cout << endl << endl;
 }
 
 // Function decides whether account type choice was valid (1 or 2)
