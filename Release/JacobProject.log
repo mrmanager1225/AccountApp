@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  Main.cpp
 c:\users\austinnoyes\documents\github\accountapp\account.h(25): warning C4200: nonstandard extension used: zero-sized array in struct/union
   c:\users\austinnoyes\documents\github\accountapp\account.h(25): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
@@ -8,3 +9,16 @@ c:\users\austinnoyes\documents\github\accountapp\account.h(25): warning C4200: n
   Finished generating code
   JacobProject.vcxproj -> C:\Users\austinnoyes\Documents\GitHub\AccountApp\Release\JacobProject.exe
   JacobProject.vcxproj -> C:\Users\austinnoyes\Documents\GitHub\AccountApp\Release\JacobProject.pdb (Full PDB)
+=======
+﻿  account.cpp
+c:\users\jacob\documents\github\accountapp\account.h(25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\users\jacob\documents\github\accountapp\account.h(25): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+  Main.cpp
+c:\users\jacob\documents\github\accountapp\account.h(25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\users\jacob\documents\github\accountapp\account.h(25): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+  Generating code
+  All 20 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  JacobProject.vcxproj -> C:\Users\Jacob\Documents\GitHub\AccountApp\Release\JacobProject.exe
+  JacobProject.vcxproj -> C:\Users\Jacob\Documents\GitHub\AccountApp\Release\JacobProject.pdb (Full PDB)
+>>>>>>> origin/master

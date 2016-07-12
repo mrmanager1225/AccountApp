@@ -1,2 +1,6 @@
 #TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
+<<<<<<< HEAD
 Release|Win32|C:\Users\austinnoyes\Documents\GitHub\AccountApp\|
+=======
+Release|Win32|C:\Users\Jacob\Documents\GitHub\AccountApp\|
+>>>>>>> origin/master

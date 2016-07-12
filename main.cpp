@@ -1,6 +1,6 @@
-// Created by: Austin Noyes
+// Created by: Austin Noyes	
 // July 5th, 2016
-// LAST UPDATED: July 11th
+// LAST UPDATED: July 11th by JK
 
 #include <iostream>
 #include "account.h"
