@@ -19,6 +19,7 @@ int main()
 		account.getAcctNum();
 		account.getCheckSaving();
 		account.isValid();
+<<<<<<< HEAD
 		account.acctArrayEntry();
 		//account.printAcctNum();
 		//account.printAcctType();
@@ -26,6 +27,15 @@ int main()
 	} while (*p_numOfAccts > 0);
 
 	account.printOutArray();
+=======
+		account.setArrayNum();
+		account.arrayEntry();
+	} while (*p_numOfAccts > 0);
+
+	// account.printAcctNum();
+	// account.printAcctType();
+	// account.printOutArray();
+>>>>>>> origin/master
 
 	#include "pause.h"
 	return 0;

@@ -1,4 +1,5 @@
 #pragma once
+#include <vector>
 
 class Account
 {
@@ -6,6 +7,7 @@ public:
 	// Public integer
 	int numOfAccts;
 	// Public functions
+	int numOfAccts;
 	void getAcctNum();
 	void printAcctNum();
 	void getCheckSaving();
@@ -13,8 +15,8 @@ public:
 	void isValid();
 	void getNumOfAccts();
 	void setArrayNum();
-	void printOutArray();
-	void acctArrayEntry();
+	// void printOutArray();
+	void arrayEntry();
 protected:
 
 private:
