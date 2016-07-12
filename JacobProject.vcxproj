@@ -24,6 +24,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="account.h" />
+    <ClInclude Include="pause.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

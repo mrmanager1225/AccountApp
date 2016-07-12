@@ -3,6 +3,8 @@
 class Account
 {
 public:
+	// Public integer
+	int numOfAccts;
 	// Public functions
 	void getAcctNum();
 	void printAcctNum();
@@ -19,7 +21,6 @@ private:
 	// Private integers
 	int accountNumber;
 	int checkingSaving;
-	int numOfAccts;
 
 	// Private array
 	int accounts[];

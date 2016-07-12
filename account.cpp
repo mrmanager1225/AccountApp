@@ -59,10 +59,14 @@ void Account::setArrayNum()
 	accounts[numOfAccts];
 }
 
-// Function enters the account number entered by user into the appropriate array
+// Function enters the account number entered by user into the appropriate array -- FIX
 void Account::acctArrayEntry()
 {
-	accounts[0] = accountNumber;
+	for (int i = 0; numOfAccts > i; numOfAccts--)
+	{
+		accounts[i] = accountNumber;
+		cout << numOfAccts;
+	}
 }
 
 // TESTING!! Prints out array to ensure that array is correctly initialized
