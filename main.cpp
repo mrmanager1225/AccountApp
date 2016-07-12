@@ -17,15 +17,10 @@ int main()
 	do
 	{
 		account.getAcctNum();
-		cout << *p_numOfAccts << endl;
 		account.getCheckSaving();
-		cout << *p_numOfAccts << endl;
 		account.isValid();
-		cout << *p_numOfAccts << endl;
 		account.setArrayNum();
-		cout << *p_numOfAccts << endl;
 		account.arrayEntry();
-		cout << *p_numOfAccts << endl;
 	} while (*p_numOfAccts > 0);
 
 	// account.printAcctNum();
